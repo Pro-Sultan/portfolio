@@ -483,6 +483,10 @@ footer h1{
     section{
         padding: 8rem 3%;
     }
+    
+    footer links{
+        display:block;
+    }
 
 
     
