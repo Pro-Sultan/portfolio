@@ -357,7 +357,6 @@ footer{
 footer .link{
     display: flex;
     padding-top: 30px;
-
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -443,6 +442,9 @@ footer h1{
 
     .order .container{
         padding: 10px 5px;
+    }
+    footer .link{
+        display: block;
     }
 
 
