@@ -456,13 +456,45 @@ footer h1{
     #menu-bar{
         display: block;
     }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #f7f7f7;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 0.9s linear;
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        border: 1px solid #666;
+        border-left: 5px solid red;
+        display: block;
+        margin: 1.5rem 0rem;
+        padding: 10px;
+    }
+
+    header .navbar ul li{
+        display: block;
+        background-color: white;
+    }
+
     section{
         padding: 8rem 3%;
+    }
+    
+    footer links{
+        display:block;
     }
 
 
     
 }
+
+
 
 
 
