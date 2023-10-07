@@ -1,5 +1,6 @@
 const menu = document.querySelector("#menu-bar");
 const navbar = document.querySelector(".navbar");
+const animate = document.querySelector(".animate");
 
 menu.addEventListener("click", () => {
     menu.classList.toggle("fa-times");
@@ -12,3 +13,4 @@ window.onscroll = () => {
 
 
 }
+
